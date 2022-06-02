@@ -21,7 +21,7 @@ extensions = [
 ]
 
 autoapi_type = 'python'
-autoapi_dirs = ['rrtd-tutorial/src']
+autoapi_dirs = ['../rrtd-tutorial/src']
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
