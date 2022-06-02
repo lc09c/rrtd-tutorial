@@ -17,11 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'autoapi.extension',
 ]
-
-autoapi_type = 'python'
-autoapi_dirs = ['']
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
