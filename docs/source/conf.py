@@ -1,10 +1,5 @@
 # Configuration file for the Sphinx documentation builder.
 
-import os
-import sys
-sys.path.insert(0, os.path.abspath(r'..\..'))
-
-
 # -- Project information
 
 project = 'Lumache'
@@ -23,8 +18,6 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
 ]
-
-autosummary_generate = True
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
